@@ -70,7 +70,7 @@ h2 {
 }
 
 #div3 {
-    height: 500%;
+    height: 600%;
     background-image: url(large_thumbnail.jpg)
 }
 #tsubame {
@@ -234,6 +234,21 @@ h2 {
     color:white;
     margin-left:60%;
     margin-top:-8%;
+    font-size:1.5em;
+    width: 10%;
+    height: auto;
+}
+#neptune {
+    margin-top:13%;
+    margin-left:15%;
+    height: 5%;
+    width: 10%;
+    height: auto;
+}
+#neptunetxt{
+    color:white;
+    margin-top:-8%;
+    margin-left: 30%;
     font-size:1.5em;
     width: 10%;
     height: auto;
