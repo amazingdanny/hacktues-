@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 #div1 {
-    height: 2000px;
+    height: 100%;
     background-size:cover;
     margin: 0;
     padding: 0;
@@ -39,24 +39,87 @@ h2 {
 }
 #birdtxt {
     margin-top: 400px;
-    text-align: center;
-    font-size: 25px;
+    margin-left: 45%;
+    font-size: 1.5em;
 }
 #birdtxt2 {
-    text-align: center;
-    font-size: 20px;
+    
+    margin-left: 45%;
+    font-size: 1.25em;
 }
 #plane {
-    margin-left: 400px;
-    margin-top: -100px;
+    margin-left: 15%;
+    margin-top: -10%;
 }
 #insidediv {
     margin-top: 150px;
-    margin-left: 0;
-    text-align: center;
-    font-size: 20px;
+    margin-left: 30%;
+    
+    font-size: 1.25em;
     
 }
 #planetxt{
     font-size: 20px;
+}
+#div3 {
+    height: 250%;
+    background-image: url(large_thumbnail.jpg)
+}
+#tsumabe {
+    margin-top: 10%;
+    margin-left: 70%; 
+}
+#tsumabetxt {
+    color:white;
+    margin-left: 52%;
+    margin-top: -7%;
+    font-size: 1.5em;
+}
+#tsumabetxt2 {
+    color: white;
+    margin-left: 52%;
+    font-size: 1.25em;
+    
+}
+#tsumabetxt3 {
+    color:white;
+    margin-left: 52%;
+    font-size: 1.25em;
+    
+}
+#moon {
+    margin-top: 15%;
+    margin-left: 15%;
+
+}
+#moontxt {
+    color:white;
+    margin-top: -8%;
+    margin-left: 30%;
+    font-size: 1.5em;
+}
+#moontxt2 {
+    color:white;
+    margin-left: 30%;
+    font-size: 1.25em;
+}
+#queqiao {
+    margin-top:13%;
+    margin-left:70%;
+}
+#queqiaotxt {
+    color: white;
+    margin-top: -5%;
+    margin-left: 35%;
+    font-size:1.5em;
+}
+#venus {
+    margin-top:13%;
+    margin-left:15%;
+}
+#venustxt {
+    color:white;
+    margin-top:-8%;
+    margin-left: 25%;
+    font-size:1.5em;
 }
