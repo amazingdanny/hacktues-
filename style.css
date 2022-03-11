@@ -52,7 +52,7 @@ h2 {
     margin-top: -10%;
 }
 #insidediv {
-    margin-top: 150px;
+    margin-top: 10%;
     margin-left: 30%;
     
     font-size: 1.25em;
@@ -62,7 +62,7 @@ h2 {
     font-size: 20px;
 }
 #div3 {
-    height: 250%;
+    height: 400%;
     background-image: url(large_thumbnail.jpg)
 }
 #tsumabe {
@@ -118,6 +118,26 @@ h2 {
     margin-left:15%;
 }
 #venustxt {
+    color:white;
+    margin-top:-8%;
+    margin-left: 25%;
+    font-size:1.5em;
+}
+#mercury {
+    margin-top: 15%;
+    margin-left: 70%;
+}
+#mercurytxt {
+    color:white;
+    margin-left:40%;
+    margin-top:-8%;
+    font-size:1.5em;
+}
+#mars {
+    margin-top:13%;
+    margin-left:15%;
+}
+#marstxt{
     color:white;
     margin-top:-8%;
     margin-left: 25%;
