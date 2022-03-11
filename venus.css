@@ -6,7 +6,7 @@ body {
 }
 #Mein {
   background-color: rgb(51, 51, 51);
-  height: 870px;
+  height: 183%;
 }
 #infoTable {
   margin-left: auto;
@@ -38,7 +38,7 @@ body {
 }
 #venus {
   margin: 0;
-  height: 650px;
+  height: 70vw;
   width: 100%;
 }
 #info {
@@ -53,7 +53,7 @@ body {
 }
 #table {
   background-color: rgb(255, 245, 235);
-  height: 1000px;
+  height: 100%;
   width: 100%;
 }
 #tableName {
@@ -65,12 +65,13 @@ body {
 }
 .cell {
   text-align: center;
-  width: 20%;
-  padding: 40px;
-  height: 200px;
+  width: 30%;
+  padding: 3%;
+  height: 70%;
   font-family: "San Serif";
 }
 #innfo {
+  letter-spacing: 0.05em;
   font-family: "Times New Roman";
   color: rgb(63, 62, 62);
 }
@@ -105,8 +106,9 @@ table tr td:last-child {
 #alsoLearnAbout {
   padding-top: 20px;
   height: 100vh;
+  min-width: 60vw;
   background-image: url(large_thumbnail.jpg);
-  background-size: 100% 100%;
+  background-size: 100vw 70vw;
   background-repeat: no-repeat;
 }
 #alsoVisit {
@@ -116,8 +118,8 @@ table tr td:last-child {
   font-family: "Arial Black", sans-serif;
 }
 .img {
-  height: 67%;
-  width: 33%;
+  height: 33vw;
+  width: 30vw;
 }
 #reccomend {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
