@@ -113,7 +113,7 @@ body {
   height: 100vh;
   min-width: 60vw;
   background-image: url(large_thumbnail.jpg);
-  background-size: 100vw 70vw;
+  background-size: 110vw 80vw;
   background-repeat: no-repeat;
 }
 #alsoVisit {
@@ -124,7 +124,7 @@ body {
 }
 .img {
   height: 33vw;
-  width: 30vw;
+  width: 27vw;
 }
 #reccomend {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
@@ -136,4 +136,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+#im {
+  width: 45%;
+  height: 70%;
 }
