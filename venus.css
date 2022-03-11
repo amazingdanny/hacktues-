@@ -1,3 +1,9 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 #Mein {
   background-color: rgb(51, 51, 51);
   height: 870px;
@@ -43,21 +49,23 @@
   padding: 1px;
   background-color: rgb(255, 255, 255);
   text-align: center;
-  height: 1200px;
+  height: 200%;
 }
 #table {
-  background-color: rgb(248, 230, 212);
-  height: 900px;
+  background-color: rgb(255, 245, 235);
+  height: 1000px;
   width: 100%;
 }
 #tableName {
+  position: relative;
+  height: 70px;
   text-align: center;
-  font-size: 20px;
-  font-family: "Times New Roman";
+  font-size: 40px;
+  font-family: "Bookman";
 }
 .cell {
   text-align: center;
-  width: 400px;
+  width: 20%;
   padding: 40px;
   height: 200px;
   font-family: "San Serif";
@@ -76,7 +84,7 @@ table {
   border-collapse: collapse;
 }
 table td {
-  border: 1px solid rgba(245, 245, 220, 0.911);
+  border: 1px solid rgba(184, 184, 133, 0.911);
 }
 table tr:first-child td {
   border-top: 0;
@@ -93,4 +101,26 @@ table tr td:last-child {
 #venus2picture {
   height: 50%;
   width: 50%;
+}
+#alsoLearnAbout {
+  padding-top: 20px;
+  height: 100vh;
+  background-image: url(large_thumbnail.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#alsoVisit {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+}
+.img {
+  height: 67%;
+  width: 33%;
+}
+#reccomend {
+  font-family: Arial Black, sans-serif, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
 }
