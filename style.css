@@ -1,0 +1,5 @@
+body {
+    background-image: linear-gradient( cyan, black);
+    background-size: 100px 100px;
+    background:no-repeat;
+}
