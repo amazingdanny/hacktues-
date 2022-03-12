@@ -3,11 +3,12 @@
     <head>
         
     <title>Neptune</title>
-    <link href="mars.css" rel="stylesheet" type="text/css" />
+    <link href="neptun.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+      
     <div id="Mein">
-        <img id="venus" src="neptune-animated.gif" alt="hy">
+        <img id="main_picture" src="neptune-animated.gif" alt="hy">
     <h1 id="MainName">
         <b>
          Neptune
@@ -22,15 +23,15 @@
           <th class="hed">Planet type</th>
         </tr>
         <tr>
-          <td class="infu">4 500 000 000 KM</td>
-          <td class="infu">4 300 000 000 KM</td>
-          <td class="infu"> 60 182 Days</td>
-          <td class="infu">ice giant</td>
+          <td class="infu"><h3 id= "P">4 500 000 000 KM</h3><button id="KM">KM</button><button id="MI">MI</button></td>
+          <td class="infu"><h3 id="P1">4 300 000 000 KM</h3><button id="KMs">KM</button><button id="MIs">MI</button></td>
+          <td class="infu"><h3>60 182 Days</h3></td>
+          <td class="infu"><h3>ice giant</h3></td>
         </tr>
       </table>
-    <div>
+    </div>
     <div id="info">  
-        <p class="innfo"> Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most
+        <p class="LongText"> Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most
             distant planet in our solar system. <br><br>
             More than 30 times as far from the Sun as Earth, Neptune is the only planet in our 
 solar system not visible to the naked eye and the first predicted by mathematics before 
@@ -40,12 +41,12 @@ its discovery. In 2011 Neptune completed its first 165-year orbit since its disc
             NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It flew past
 in 1989 on its way out of the solar system.
             <br><br>
-            </p><img class="venus1picture" src="neptune.jpg"venus" >
+          </p><img id="firstPicture" src="neptune.jpg" ><button id = "picturebutton1">-></button>
          </p>
         </div>
     <div id="table">
        <h2 id = "tableName"><b>Things to know about Neptune</b></h2>
-       <table id="tabble">
+       <table id="tabbleToKnow">
         <tr>
           <td class = "cell"><b>GIANT</b><br><br>
             Neptune is about four times wider than Earth. If Earth were a large apple, Neptune would be the size of a basketball.
@@ -85,12 +86,12 @@ in 1989 on its way out of the solar system.
         </tr>
       </table>
       </div>
-      <div id="alsoLearnAbout">
+      <div id="divAlsoLearnAbou">
         <p id = "alsoVisit">If you want to explore the universe you can also visit</p><br>
-        <a href="pluto.html">  <img src="pluto.png" class = "img"></a>
-        <a href="TSUBAME.html"> <img src="tsumabe1.png" class = "img"></a>
-        <a href="moon.html"><img src="moon.png" id="img"></a>
-        <p "> The moon &nbsp&nbsp Uranus Mars</p>
+        <a href="pluto.html">  <img src="pluto.png" id = "im2"></a>
+        <a href="TSUBAME.html"> <img src="tsumabe1.png" id = "im1"></a>
+        <a href="moon.html"><img src="moon.png" id="im"></a>
       </div>
+      <script src="neptune.js"></script>
     </body>
 </html>

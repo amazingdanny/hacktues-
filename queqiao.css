@@ -8,7 +8,7 @@ body {
   margin: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 185%;
+  height: 170%;
 }
 #infoTable {
   margin-left: auto;
@@ -108,7 +108,7 @@ body {
   height: 50%;
   width: 50%;
 }
-#divAlsoLearnAbou {
+#divAlsoLearnAbouou {
   padding-top: 20px;
   height: 100vh;
   min-width: 60vw;

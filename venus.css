@@ -6,9 +6,11 @@ body {
 }
 #Mein {
   margin: -2%;
+  margin-left: -2%;
+  margin-right: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 187%;
+  height: 200%;
 }
 #infoTable {
   margin-left: auto;
@@ -24,7 +26,7 @@ body {
 .hed {
   font-size: 20px;
   color: rgb(248, 252, 1);
-  width: 20%;
+  width: 29%;
 }
 .infu {
   font-size: 23px;
@@ -73,42 +75,42 @@ body {
   height: 70%;
   font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
-.innfo {
+.LongText {
   line-height: 1.5em;
   margin-bottom: 5%;
   letter-spacing: 0.05em;
   font-family: Tahoma, Arial, Helvetica, sans-serif;
   color: rgb(43, 41, 41);
 }
-#venus1picture {
+#firstPicture {
   height: 300px;
 }
 .class {
   text-align: center;
 }
-#tabble {
+#tabbleToKnow {
   border-collapse: collapse;
 }
-#tabble td {
+#tabbleToKnow td {
   border: 1px solid rgba(184, 184, 133, 0.911);
 }
-#tabble tr:first-child td {
+#tabbleToKnow tr:first-child td {
   border-top: 0;
 }
-#tabble tr td:first-child {
+#tabbleToKnow tr td:first-child {
   border-left: 0;
 }
-#tabble tr:last-child td {
+#tabbleToKnow tr:last-child td {
   border-bottom: 0;
 }
-#tabble tr td:last-child {
+#tabbleToKnow tr td:last-child {
   border-right: 0;
 }
 #venus2picture {
   height: 50%;
   width: 50%;
 }
-#alsoLearnAbout {
+#divAlsoLearnAbou {
   padding-top: 20px;
   height: 100vh;
   min-width: 60vw;
@@ -131,9 +133,25 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
-.venus1picture {
+.firstPicture {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+#KM {
+  color: rgb(248, 252, 1);
+  background-color: rgb(51, 51, 51);
+}
+#KMs {
+  color: rgb(248, 252, 1);
+  background-color: rgb(51, 51, 51);
+}
+#MIs {
+  color: rgb(248, 252, 1);
+  background-color: rgb(51, 51, 51);
+}
+#MI {
+  color: rgb(248, 252, 1);
+  background-color: rgb(51, 51, 51);
 }

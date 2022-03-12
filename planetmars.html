@@ -7,7 +7,7 @@
     </head>
     <body>
     <div id="Mein">
-        <img id="venus" src="Mars-animated.gif" alt="hy">
+        <img id="mainPicture" src="Mars-animated.gif" alt="hy">
     <h1 id="MainName">
         <b>
          Mars
@@ -16,21 +16,21 @@
     </h1>
     <table id="infoTable">
         <tr>
-          <th class="hed">Distance from the Sun</th>
-          <th class="hed">Distance from the Earth</th> 
-          <th class="hed">Year</th>
-          <th class="hed">Planet type</th>
+          <th class="hed"><h3>Distance from the Sun</h3></th>
+          <th class="hed"><h3>Distance from the Earth</h3></th> 
+          <th class="hed"><h3>Year</h3></th>
+          <th class="hed"><h3>Planet type</h3></th>
         </tr>
         <tr>
-          <td class="infu">228 000 000 KM</td>
-          <td class="infu">54 600 000 KM</td>
-          <td class="infu"> 687 Days</td>
-          <td class="infu"> Terrestrial</td>
+          <td class="infu"><h3 id= "P">228 000 000 KM</h3><button id="KM">KM</button><button id="MI">MI</button></td>
+          <td class="infu"><h3 id = "P1">54 600 000 KM</h3><button id="KMs">KM</button><button id="MIs">MI</button></td>
+          <td class="infu"><h3>687 Days</h3></td>
+          <td class="infu"><h3>Terrestrial</h3></td>
         </tr>
       </table>
-    <div>
-    <div id="info">  
-        <p class="innfo">  Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin
+    </div>
+    <div id="divInfo">  
+        <p class="LongText">  Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin
             atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, 
             extinct volcanoes, and evidence that it was even more active in the past.<br><br>
              Mars is one of the most explored bodies in our solar system, and it's the only planet
@@ -52,12 +52,11 @@
             evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of 
             years ago.
             <br><br>
-            </p><img class="venus1picture" src="mars.png"venus" >
-         </p>
+            </p><img id="firstPicture" src="mars.png"venus" >
         </div>
     <div id="table">
        <h2 id = "tableName"><b>Things to know about Mars</b></h2>
-       <table id="tabble">
+       <table id="tabbleToKnowToKnow">
         <tr>
           <td class = "cell"><b>SMALL PLANET</b><br><br>
             If the Sun were as tall as a typical front door, Earth would be the size of a dime, and Mars would be about as big as an aspirin tablet.
@@ -94,12 +93,12 @@
         </tr>
       </table>
       </div>
-      <div id="alsoLearnAbout">
+      <div id="divAlsoLearnAbou">
         <p id = "alsoVisit">If you want to explore the universe you can also visit</p><br>
-        <a href="neptune.html">  <img src="betterNeptune.png" id = "im1"></a>
-        <a href="uranus.html"> <img  src="uranus.png" id = "im2"></a>
-        <a href="saturn.html"><img src="saturn.png" id="im"></a>
-        <p "> The moon &nbsp&nbsp Uranus Mars</p>
+        <a href="neptune.html">  <img src="betterNeptune.png" id = "img1"></a>
+        <a href="uranus.html"> <img  src="uranus.png" id = "img2"></a>
+        <a href="saturn.html"><img src="saturn.png" id="img3"></a>
+        <script src="neptune.js"></script>
       </div>
     </body>
 </html>

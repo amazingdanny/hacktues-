@@ -8,7 +8,7 @@ body {
   margin: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 185%;
+  height: 162%;
 }
 #infoTable {
   margin-left: auto;
@@ -23,8 +23,8 @@ body {
 }
 .hed {
   font-size: 20px;
-  color: rgb(255, 255, 255);
-  width: 20%;
+  color: rgb(252, 172, 0);
+  width: 28%;
 }
 .infu {
   font-size: 23px;
@@ -41,8 +41,8 @@ body {
 }
 #venus {
   margin: 0;
-  height: 70vw;
-  width: 80%;
+  height: 60vw;
+  width: 100%;
 }
 #info {
   font-size: 20px;
@@ -108,12 +108,12 @@ body {
   height: 50%;
   width: 50%;
 }
-#divAlsoLearnAbou {
+#divAlsoLearnAbouououou {
   padding-top: 20px;
   height: 100vh;
   min-width: 60vw;
   background-image: url(large_thumbnail.jpg);
-  background-size: 110vw 80vw;
+  background-size: 100vw 70vw;
   background-repeat: no-repeat;
 }
 #alsoVisit {
@@ -121,10 +121,6 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: "Arial Black", sans-serif;
-}
-.img {
-  height: 30vw;
-  width: 30vw;
 }
 #reccomend {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
@@ -137,7 +133,25 @@ body {
   margin-right: auto;
   width: 70%;
 }
-#im {
-  width: 55%;
-  height: 70%;
+#im1 {
+  height: 50%;
+}
+#im2 {
+  height: 50%;
+}
+#KM {
+  color: rgb(252, 172, 0);
+  background-color: rgb(51, 51, 51);
+}
+#KMs {
+  color: rgb(252, 172, 0);
+  background-color: rgb(51, 51, 51);
+}
+#MIs {
+  color: rgb(252, 172, 0);
+  background-color: rgb(51, 51, 51);
+}
+#MI {
+  color: rgb(252, 172, 0);
+  background-color: rgb(51, 51, 51);
 }

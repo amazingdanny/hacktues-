@@ -1,0 +1,24 @@
+let KM = "1,890,152,704 KM";
+let MI = "1 174 486 075 MI";
+let KMs = " 3 041 100 000 KM";
+let MIs = "1 889 651 348 MI";
+let swich = 1;
+document.getElementById("KM").onclick = function(){
+    document.getElementById("P").innerHTML = KM;
+}
+document.getElementById("MI").onclick = function(){
+    document.getElementById("P").innerHTML = MI;
+}
+document.getElementById("KMs").onclick = function(){
+    document.getElementById("P1").innerHTML = KMs;
+}
+document.getElementById("MIs").onclick = function(){
+    document.getElementById("P1").innerHTML = MIs;
+}
+document.getElementsById ("picturebutton1").onclick = function(){
+    swich++;
+    if(swich == 5)
+    swich = 1;
+    if(swich == 2)
+    document.getElementsByClassName("firstPicture").innerHTML.src = "neptune.gif";
+}
