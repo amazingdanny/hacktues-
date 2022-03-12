@@ -41,14 +41,14 @@ body {
   background-color: black;
   border-bottom: none;
 }
-#venus {
+#mainPicture {
   margin: 0;
   height: 70vw;
   width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
-#info {
+#divInfo {
   font-size: 20px;
   font-family: Tahoma, Arial, Helvetica, sans-serif;
   margin: auto;
@@ -57,7 +57,7 @@ body {
   background-color: rgb(255, 255, 255);
   height: 200%;
 }
-#table {
+#tabbleToKnowToKnow {
   background-color: rgb(255, 245, 235);
   height: 100%;
   width: 100%;
@@ -67,7 +67,7 @@ body {
   height: 70px;
   text-align: center;
   font-size: 40px;
-  font-family: Bookman;
+  font-family: Bookman, Arial;
 }
 .cell {
   font-size: 120%;
@@ -77,7 +77,7 @@ body {
   height: 70%;
   font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
-.innfo {
+.LongText {
   line-height: 1.5em;
   margin-bottom: 5%;
   letter-spacing: 0.05em;
@@ -90,29 +90,29 @@ body {
 .class {
   text-align: center;
 }
-#tabble {
+#tabbleToKnowToKnow {
   border-collapse: collapse;
 }
-#tabble td {
+#tabbleToKnowToKnow td {
   border: 1px solid rgba(184, 184, 133, 0.911);
 }
-#tabble tr:first-child td {
+#tabbleToKnowToKnow tr:first-child td {
   border-top: 0;
 }
-#tabble tr td:first-child {
+#tabbleToKnowToKnow tr td:first-child {
   border-left: 0;
 }
-#tabble tr:last-child td {
+#tabbleToKnowToKnow tr:last-child td {
   border-bottom: 0;
 }
-#tabble tr td:last-child {
+#tabbleToKnowToKnow tr td:last-child {
   border-right: 0;
 }
 #venus2picture {
   height: 50%;
   width: 50%;
 }
-#alsoLearnAbout {
+#divAlsoLearnAbou {
   padding-top: 20px;
   height: 100vh;
   min-width: 60vw;
@@ -137,16 +137,16 @@ body {
   margin-right: auto;
   width: 70%;
 }
-#im {
-  width: 50%;
-  height: 70%;
+#img3 {
+  width: 43%;
+  height: 55%;
 }
-#im1 {
-  width: 29%;
-  height: 40%;
+#img2 {
+  width: 25%;
+  height: 50%;
 }
-#im2 {
-  width: 20%;
+#img1 {
+  width: 30%;
   height: 40%;
 }
 #KM {
