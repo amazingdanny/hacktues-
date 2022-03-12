@@ -2,12 +2,114 @@
 <html>
     <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function(event) {
+    console.log($(window).scrollTop());
+    var windowHeight=$( document ).height();
+    var sputnikOffSet=$("#sputnik").offset().top;
+    var deepLineOffSet=$("#deep-line").offset().top;
+    var tsubameOffSet=$("#tsubame").offset().top;
+    console.log(deepLineOffSet);
+    if(deepLineOffSet<900){
+        $("#deep-line").text("5km from the Earth");
+    }else if(deepLineOffSet<=sputnikOffSet){ 
+        $("#deep-line").text("100km from the Earth");
+    }else if(deepLineOffSet<=(tsubameOffSet+sputnikOffSet)/2){ 
+        $("#deep-line").text("500km from the Earth");
+    }else if(deepLineOffSet<=tsubameOffSet+110){ 
+        $("#deep-line").text("100 000km from the Earth");
+    }else if($(window).scrollTop()<=900){ 
+        $("#deep-line").text("167 400km from the Earth");
+    }else if($(window).scrollTop()<=1075){ 
+        $("#deep-line").text("200 000km from the Earth");
+    }else if($(window).scrollTop()<=1172){ 
+        $("#deep-line").text("300 000km from the Earth");
+    }else if($(window).scrollTop()<=1300){ 
+        $("#deep-line").text("384 000km from the Earth");
+    }else if($(window).scrollTop()<=1500){ 
+        $("#deep-line").text("400 000km from the Earth");
+    }else if($(window).scrollTop()<=1618){ 
+        $("#deep-line").text("455 000km from the Earth");
+    }else if($(window).scrollTop()<=1700){ 
+        $("#deep-line").text("1 000 000km from the Earth");
+    }else if($(window).scrollTop()<=1800){ 
+        $("#deep-line").text("50 000 000km from the Earth");
+    }else if($(window).scrollTop()<=1900){ 
+        $("#deep-line").text("90 000 000km from the Earth");
+    }else if($(window).scrollTop()<=2000){ 
+        $("#deep-line").text("100 000 000km from the Earth");
+    }else if($(window).scrollTop()<=2400){ 
+        $("#deep-line").text("140 000 000km from the Earth");
+    }else if($(window).scrollTop()<=2500){ 
+        $("#deep-line").text("149 000 000km from the Earth");
+    }else if($(window).scrollTop()<=2800){ 
+        $("#deep-line").text("180 000 000km from the Earth");
+    }else if($(window).scrollTop()<=2900){ 
+        $("#deep-line").text("188 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3100){ 
+        $("#deep-line").text("200 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3200){ 
+        $("#deep-line").text("250 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3300){ 
+        $("#deep-line").text("280 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3400){ 
+        $("#deep-line").text("289 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3500){ 
+        $("#deep-line").text("300 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3600){ 
+        $("#deep-line").text("350 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3800){ 
+        $("#deep-line").text("400 000 000km from the Earth");
+    }else if($(window).scrollTop()<=3900){ 
+        $("#deep-line").text("500 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4000){ 
+        $("#deep-line").text("600 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4100){ 
+        $("#deep-line").text("700 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4200){ 
+        $("#deep-line").text("800 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4300){ 
+        $("#deep-line").text("900 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4400){ 
+        $("#deep-line").text("1 000 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4500){ 
+        $("#deep-line").text("1 200 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4600){ 
+        $("#deep-line").text("1 400 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4700){ 
+        $("#deep-line").text("1 600 000 000km from the Earth");
+    }else if($(window).scrollTop()<=4800){ 
+        $("#deep-line").text("2 000 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5000){ 
+        $("#deep-line").text("2 500 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5100){ 
+        $("#deep-line").text("3 000 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5200){ 
+        $("#deep-line").text("3 500 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5300){ 
+        $("#deep-line").text("4 000 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5400){ 
+        $("#deep-line").text("4 500 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5500){ 
+        $("#deep-line").text("4 600 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5700){ 
+        $("#deep-line").text("5 000 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5800){ 
+        $("#deep-line").text("5 100 000 000km from the Earth");
+    }else if($(window).scrollTop()<=5900){ 
+        $("#deep-line").text("5 200 000 000km from the Earth");
+    }else if($(window).scrollTop()<=6000){ 
+        $("#deep-line").text("5 500 000 000km from the Earth");
+    }else if($(window).scrollTop()>=6000){ 
+        $("#deep-line").text("Too far from the Earth");  
+    };
+});
+    </script>
     <meta name="viewport" content="width=device-width">
     <title>The Wide Space</title>
     </head>
     <link href="style.css" rel="stylesheet"  />
     <body>
-        
          <div id="div1">
             <h1>Wide Space</h1>
             <h2>Wide Space is a website that allows you to see how far from the earth different objects in space are</h2>
@@ -23,12 +125,12 @@
         <div id="div2">
         </div>
         <div id="div3">
+            <img src="sputnik.png" id="sputnik">
+            <p id="sputniktxt">Sputnik was the first satellite ever launched in orbit by the USSR</p>
             <img src="tsumabe1.png" id="tsubame">
             <p id="tsubametxt">TSUBAME is a japanese satellite</p>
             <p id="tsubametxt2">It is the lowest orbiting satellite</p>
             <p id="tsubametxt3">The satellite orbited at an attitude of 167.4km</p>
-            <img src="sputnik.png" id="sputnik">
-            <p id="sputniktxt">Sputnik was the first satellite ever launched in orbit by the USSR </p>
             <img src="moon1.gif" id="moon">
             <p id="moontxt">The moon orbits the earth at a distance of 384,400 km</p>
             <p id="moontxt2">In that distance you can fit every planet in the solar system combined</p>
@@ -63,5 +165,6 @@
             <img src="galaxy-andromeda-galaxy.gif" id="andromeda">
             <p id="andromedatxt">The Andromeda galaxy is the closest galaxy to The Milky Way and it 2.5 million light years away from the Earth</p>
         </div>
+        <h2 id="deep-line"></h2>
     </body>
 </html>

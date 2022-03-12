@@ -103,15 +103,15 @@ h2 {
   height: auto;
 }
 #sputnik {
-  margin-top: 13%;
-  margin-left: 15%;
+  margin-top: 10%;
+  margin-left: 65%;
   width: 12%;
   height: auto;
 }
 #sputniktxt {
   color: white;
-  margin-top: -9%;
-  margin-left: 27%;
+  margin-top: -10%;
+  margin-left: 45%;
   font-size: 1.5em;
   width: 20%;
   height: auto;
@@ -305,4 +305,11 @@ h2 {
   font-size: 1.5em;
   width: 10%;
   height: auto;
+}
+#deep-line
+{
+  position: sticky;
+  bottom: 10%;
+  color: #fff;
+  text-align: center;
 }
