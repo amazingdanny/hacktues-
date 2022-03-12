@@ -43,9 +43,9 @@ body {
 }
 #mainPicture {
   margin: 0;
-  height: 70vw;
-  width: 50vw;
-  margin-left: auto;
+  height: 70%;
+  width: 90%;
+  margin-left: 5%;
   margin-right: auto;
 }
 #divInfo {
