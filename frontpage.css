@@ -75,7 +75,7 @@ span::before
 }
 span:nth-child(1)
 {
-    top: -10px;
+    top: 600px;
     right: 0;
     animation-delay: 0s;
     animation-duration: 1s;

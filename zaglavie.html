@@ -8,34 +8,47 @@
     var windowHeight=$( document ).height();
     var sputnikOffSet=$("#sputnik").offset().top;
     var deepLineOffSet=$("#deep-line").offset().top;
+    var spacestationOffSet=$("#spacestation").offset().top;
     var tsubameOffSet=$("#tsubame").offset().top;
+    var queqiaoOffSet=$("#queqiao").offset().top;
+    var moonOffSet=$("#moon").offset().top;
+    var venusOffSet=$("#venus").offset().top;
+    var sunOffSet=$("#sun").offset().top;
+    var mercuryOffSet=$("#mercury").offset().top;
+    var marsOffSet=$("#mars").offset().top;
+    var ceresOffSet=$("#ceres").offset().top;
+    var jupiterOffSet=$("#jupiter").offset().top;
+    var saturnOffSet=$("#saturn").offset().top;
+    var uranusOffSet=$("#uranus").offset().top;
+    var neptuneOffSet=$("#neptune").offset().top;
+    var plutoOffSet=$("#pluto").offset().top;
+    var andromedaOffSet=$("#andromeda").offset().top;
+    console.log(moonOffSet*(1/4)+sputnikOffSet*(3/4));
     console.log(deepLineOffSet);
     if(deepLineOffSet<900){
         $("#deep-line").text("5km from the Earth");
-    }else if(deepLineOffSet<=sputnikOffSet){ 
+    }else if(deepLineOffSet<=tsubameOffSet){ 
         $("#deep-line").text("100km from the Earth");
-    }else if(deepLineOffSet<=(tsubameOffSet+sputnikOffSet)/2){ 
-        $("#deep-line").text("500km from the Earth");
-    }else if(deepLineOffSet<=tsubameOffSet+110){ 
-        $("#deep-line").text("100 000km from the Earth");
-    }else if($(window).scrollTop()<=900){ 
-        $("#deep-line").text("167 400km from the Earth");
-    }else if($(window).scrollTop()<=1075){ 
+    }else if(deepLineOffSet<=spacestationOffSet){ 
+        $("#deep-line").text("167.4km from the Earth");
+    }else if(deepLineOffSet<=sputnikOffSet){ 
+        $("#deep-line").text("400km from the Earth");
+    }else if(deepLineOffSet<=(moonOffSet+sputnikOffSet)/2){ 
+        $("#deep-line").text("550km from the Earth");
+    }else if(deepLineOffSet<=moonOffSet){ 
         $("#deep-line").text("200 000km from the Earth");
-    }else if($(window).scrollTop()<=1172){ 
-        $("#deep-line").text("300 000km from the Earth");
-    }else if($(window).scrollTop()<=1300){ 
+    }else if(deepLineOffSet<=queqiaoOffSet){ 
         $("#deep-line").text("384 000km from the Earth");
-    }else if($(window).scrollTop()<=1500){ 
-        $("#deep-line").text("400 000km from the Earth");
-    }else if($(window).scrollTop()<=1618){ 
+    }else if(deepLineOffSet<=(venusOffSet+queqiaoOffSet)/2){ 
         $("#deep-line").text("455 000km from the Earth");
-    }else if($(window).scrollTop()<=1700){ 
-        $("#deep-line").text("1 000 000km from the Earth");
-    }else if($(window).scrollTop()<=1800){ 
+    }else if(deepLineOffSet<=venusOffSet*(3/4)+queqiaoOffSet*(1/4)){ 
         $("#deep-line").text("50 000 000km from the Earth");
-    }else if($(window).scrollTop()<=1900){ 
+    }else if(deepLineOffSet<=venusOffSet+100){ 
         $("#deep-line").text("90 000 000km from the Earth");
+    }else if(deepLineOffSet<=((venusOffSet+sunOffSet)/2)+50){ 
+        $("#deep-line").text("120 000 000km from the Earth");
+    }else if(deepLineOffSet<=sunOffSet){ 
+        $("#deep-line").text("140 000 000km from the Earth");
     }else if($(window).scrollTop()<=2000){ 
         $("#deep-line").text("100 000 000km from the Earth");
     }else if($(window).scrollTop()<=2400){ 
@@ -129,11 +142,11 @@
             <p id="tsubametxt">TSUBAME is a japanese satellite</p>
             <p id="tsubametxt2">It is the lowest orbiting satellite</p>
             <p id="tsubametxt3">The satellite orbited at an attitude of 167.4km</p>
-            <img src="spacestation.png" id="spacestation">
+            <a href="ISS.html"><img src="spacestation.png" id="spacestation"></a>
             <p id="spacestationtxt">The international space station orbits the Earth at a height of 408km</p>
-            <img src="sputnik.png" id="sputnik">
+            <a href="sputnik.html"><img src="sputnik.png" id="sputnik"></a>
             <p id="sputniktxt">Sputnik was the first satellite ever launched in orbit by the USSR at the height of 577km  </p>
-            <img src="moon1.gif" id="moon">
+            <a href="moon.html"><img src="moon1.gif" id="moon"></a>
             <p id="moontxt">The moon orbits the earth at a distance of 384,400 km</p>
             <p id="moontxt2">In that distance you can fit every planet in the solar system combined</p>
             <a href = "queqiao.html"> <img src="queqiao.png" id="queqiao"></a>
