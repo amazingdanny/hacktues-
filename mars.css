@@ -10,7 +10,7 @@ body {
   margin-right: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 130%;
+  height: 170%;
 }
 #infoTable {
   margin-left: auto;
@@ -56,7 +56,7 @@ body {
   width: 57%;
   padding: 1px;
   background-color: rgb(255, 255, 255);
-  height: 80%;
+  height: 190%;
   margin-top: 3%;
 }
 #tabbleToKnowToKnow {
@@ -66,7 +66,7 @@ body {
 }
 #tableName {
   position: relative;
-  height: 70px;
+  height: 30%;
   text-align: center;
   font-size: 40px;
   font-family: Bookman, Arial;
