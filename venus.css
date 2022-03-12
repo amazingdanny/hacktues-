@@ -5,13 +5,15 @@ body {
   height: 100%;
 }
 #Mein {
+  margin: -2%;
+  padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 183%;
+  height: 187%;
 }
 #infoTable {
   margin-left: auto;
   margin-right: auto;
-  height: 120px;
+  height: 10%;
 }
 #MainName {
   font-family: "Times New Roman";
@@ -20,12 +22,13 @@ body {
   color: rgb(255, 255, 255);
 }
 .hed {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(248, 252, 1);
-  width: 200px;
+  width: 20%;
 }
 .infu {
-  color: rgb(201, 199, 199);
+  font-size: 23px;
+  color: rgb(223, 223, 223);
   text-align: center;
   width: 120px;
 }
@@ -43,12 +46,11 @@ body {
 }
 #info {
   font-size: 20px;
-  font-family: "Times New Roman";
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
   margin: auto;
   width: 57%;
   padding: 1px;
   background-color: rgb(255, 255, 255);
-  text-align: center;
   height: 200%;
 }
 #table {
@@ -61,19 +63,22 @@ body {
   height: 70px;
   text-align: center;
   font-size: 40px;
-  font-family: "Bookman";
+  font-family: Bookman;
 }
 .cell {
+  font-size: 120%;
   text-align: center;
   width: 30%;
   padding: 3%;
   height: 70%;
-  font-family: "San Serif";
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
-#innfo {
+.innfo {
+  line-height: 1.5em;
+  margin-bottom: 5%;
   letter-spacing: 0.05em;
-  font-family: "Times New Roman";
-  color: rgb(63, 62, 62);
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  color: rgb(43, 41, 41);
 }
 #venus1picture {
   height: 300px;
@@ -81,22 +86,22 @@ body {
 .class {
   text-align: center;
 }
-table {
+#tabble {
   border-collapse: collapse;
 }
-table td {
+#tabble td {
   border: 1px solid rgba(184, 184, 133, 0.911);
 }
-table tr:first-child td {
+#tabble tr:first-child td {
   border-top: 0;
 }
-table tr td:first-child {
+#tabble tr td:first-child {
   border-left: 0;
 }
-table tr:last-child td {
+#tabble tr:last-child td {
   border-bottom: 0;
 }
-table tr td:last-child {
+#tabble tr td:last-child {
   border-right: 0;
 }
 #venus2picture {
@@ -125,4 +130,10 @@ table tr td:last-child {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
   font-size: 20px;
   color: #ffffff;
+}
+.venus1picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
