@@ -15,3 +15,19 @@ document.getElementById("KMs").onclick = function(){
 document.getElementById("MIs").onclick = function(){
     document.getElementById("P1").innerHTML = MIs;
 }
+document.getElementById("picturebutton1").onclick = function(){
+    swich++;
+    if(swich == 4){
+    swich = 1;
+    }
+    if(swich%3 == 1){
+        document.getElementById("firstPicture").src = "venus1.jpg";
+    }
+    if(swich%3 == 2){
+        console.log(swich);
+    document.getElementById("firstPicture").src = "venus_1.jpg";
+    }
+    if(swich%3 == 0){
+    document.getElementById("firstPicture").src = "venus2.jpg";
+    }
+}

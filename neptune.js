@@ -15,7 +15,7 @@ document.getElementById("KMs").onclick = function(){
 document.getElementById("MIs").onclick = function(){
     document.getElementById("P1").innerHTML = MIs;
 }
-document.getElementById ("picturebutton1").onclick = function(){
+document.getElementById("picturebutton1").onclick = function(){
     swich++;
     console.log(swich);
     if(swich == 4){
@@ -28,8 +28,8 @@ document.getElementById ("picturebutton1").onclick = function(){
         console.log(swich);
         document.getElementById("firstPicture").src = "neptune_2.jpg";
     }
-    if(swich%3 == 0){
+     if(swich%3 == 0){
         document.getElementById("firstPicture").src = "neptun_3.jpg";
-    }
+     }
     }
    

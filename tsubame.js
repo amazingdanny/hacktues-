@@ -17,8 +17,8 @@ document.getElementById("MIs").onclick = function(){
 }
 document.getElementsById ("picturebutton1").onclick = function(){
     swich++;
-    if(swich == 5)
+    if(swich == 4)
     swich = 1;
-    if(swich == 2)
-    document.getElementsByClassName("firstPicture").innerHTML.src = "neptune.gif";
+    if(swich%3 == 2)
+    document.getElementsByClassName("firstPicture").innerHTML.src = "venus_1.jpg";
 }
