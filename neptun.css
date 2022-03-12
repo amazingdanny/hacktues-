@@ -10,7 +10,7 @@ body {
   margin-right: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 168%;
+  height: 172%;
 }
 #infoTable {
   margin-left: auto;
@@ -44,7 +44,7 @@ body {
 #main_picture {
   margin: 0;
   height: 60vw;
-  width: 60vw;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,7 +59,7 @@ body {
 }
 #table {
   background-color: rgb(255, 245, 235);
-  height: 100%;
+  height: 140%;
   width: 100%;
 }
 #tableName {
@@ -84,7 +84,7 @@ body {
   font-family: Tahoma, Arial, Helvetica, sans-serif;
   color: rgb(43, 41, 41);
 }
-#venus1picture {
+#firstPicture {
   height: 300px;
 }
 .class {
@@ -113,7 +113,6 @@ body {
   width: 50%;
 }
 #divAlsoLearnAbou {
-  padding-top: 20px;
   height: 100vh;
   min-width: 60vw;
   background-image: url(large_thumbnail.jpg);
@@ -131,7 +130,7 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
-.venus1picture {
+.firstPicture {
   display: block;
   margin-left: auto;
   margin-right: auto;

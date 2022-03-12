@@ -6,11 +6,9 @@ body {
 }
 #Mein {
   margin: -2%;
-  margin-left: -2%;
-  margin-right: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 200%;
+  height: 80%;
 }
 #infoTable {
   margin-left: auto;
@@ -25,8 +23,8 @@ body {
 }
 .hed {
   font-size: 20px;
-  color: rgb(192, 191, 191);
-  width: 29%;
+  color: rgb(252, 172, 0);
+  width: 28%;
 }
 .infu {
   font-size: 23px;
@@ -41,10 +39,12 @@ body {
   background-color: black;
   border-bottom: none;
 }
-#venus {
+#MainPicture {
   margin: 0;
-  height: 70vw;
-  width: 100%;
+  height: 30vw;
+  width: 50%;
+  margin-right: auto;
+  margin-left: 20%;
 }
 #info {
   font-size: 20px;
@@ -112,7 +112,7 @@ body {
 }
 #divAlsoLearnAbou {
   padding-top: 20px;
-  height: 100vh;
+  height: 70vw;
   min-width: 60vw;
   background-image: url(large_thumbnail.jpg);
   background-size: 100vw 70vw;
@@ -123,10 +123,6 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: "Arial Black", sans-serif;
-}
-.img {
-  height: 33vw;
-  width: 30vw;
 }
 #reccomend {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
@@ -139,19 +135,25 @@ body {
   margin-right: auto;
   width: 70%;
 }
+#im1 {
+  height: 50%;
+}
+#im2 {
+  height: 50%;
+}
 #KM {
-  color: rgb(155, 155, 155);
+  color: rgb(252, 172, 0);
   background-color: rgb(51, 51, 51);
 }
 #KMs {
-  color: rgb(155, 155, 155);
+  color: rgb(252, 172, 0);
   background-color: rgb(51, 51, 51);
 }
 #MIs {
-  color: rgb(155, 155, 155);
+  color: rgb(252, 172, 0);
   background-color: rgb(51, 51, 51);
 }
 #MI {
-  color: rgb(155, 155, 155);
+  color: rgb(252, 172, 0);
   background-color: rgb(51, 51, 51);
 }

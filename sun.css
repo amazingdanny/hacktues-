@@ -80,7 +80,7 @@ body {
   font-family: Tahoma, Arial, Helvetica, sans-serif;
   color: rgb(43, 41, 41);
 }
-#venus1picture {
+#firstPicture {
   height: 300px;
 }
 .class {
@@ -131,7 +131,7 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
-.venus1picture {
+.firstPicture {
   display: block;
   margin-left: auto;
   margin-right: auto;

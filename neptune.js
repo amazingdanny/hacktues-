@@ -20,5 +20,5 @@ document.getElementsById ("picturebutton1").onclick = function(){
     if(swich == 5)
     swich = 1;
     if(swich == 2)
-    document.getElementsByClassName("venus1picture").innerHTML.src = "neptune.gif";
+    document.getElementsById("firstPicture").innerHTML.src = "neptune.gif";
 }
