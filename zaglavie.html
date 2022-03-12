@@ -47,73 +47,41 @@
         $("#deep-line").text("90 000 000km from the Earth");
     }else if(deepLineOffSet<=((venusOffSet+sunOffSet)/2)+50){ 
         $("#deep-line").text("120 000 000km from the Earth");
-    }else if(deepLineOffSet<=sunOffSet){ 
-        $("#deep-line").text("140 000 000km from the Earth");
-    }else if($(window).scrollTop()<=2000){ 
-        $("#deep-line").text("100 000 000km from the Earth");
-    }else if($(window).scrollTop()<=2400){ 
-        $("#deep-line").text("140 000 000km from the Earth");
-    }else if($(window).scrollTop()<=2500){ 
-        $("#deep-line").text("149 000 000km from the Earth");
-    }else if($(window).scrollTop()<=2800){ 
-        $("#deep-line").text("180 000 000km from the Earth");
-    }else if($(window).scrollTop()<=2900){ 
+    }else if(deepLineOffSet<=sunOffSet+125){ 
+        $("#deep-line").text("148 000 000km from the Earth");
+    }else if(deepLineOffSet<=((mercuryOffSet+sunOffSet)/2)+100){ 
+        $("#deep-line").text("160 000 000km from the Earth");
+    }else if(deepLineOffSet<=mercuryOffSet+100){ 
         $("#deep-line").text("188 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3100){ 
+    }else if(deepLineOffSet<=((marsOffSet+mercuryOffSet)/2)+150){ 
         $("#deep-line").text("200 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3200){ 
-        $("#deep-line").text("250 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3300){ 
-        $("#deep-line").text("280 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3400){ 
+    }else if(deepLineOffSet<=marsOffSet+150){ 
         $("#deep-line").text("289 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3500){ 
-        $("#deep-line").text("300 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3600){ 
+    }else if(deepLineOffSet<=((marsOffSet+ceresOffSet)/2)+50){ 
         $("#deep-line").text("350 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3800){ 
-        $("#deep-line").text("400 000 000km from the Earth");
-    }else if($(window).scrollTop()<=3900){ 
-        $("#deep-line").text("500 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4000){ 
-        $("#deep-line").text("600 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4100){ 
-        $("#deep-line").text("700 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4200){ 
-        $("#deep-line").text("800 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4300){ 
-        $("#deep-line").text("900 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4400){ 
-        $("#deep-line").text("1 000 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4500){ 
-        $("#deep-line").text("1 200 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4600){ 
+    }else if(deepLineOffSet<=ceresOffSet+100){ 
+        $("#deep-line").text("403 000 000km from the Earth");
+    }else if(deepLineOffSet<=((ceresOffSet+jupiterOffSet)/2)+150){ 
+        $("#deep-line").text("650 000 000km from the Earth");
+    }else if(deepLineOffSet<=jupiterOffSet+250){ 
+        $("#deep-line").text("893 000 000km from the Earth");
+    }else if(deepLineOffSet<=((jupiterOffSet+saturnOffSet)/2)+165){ 
         $("#deep-line").text("1 400 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4700){ 
+    }else if(deepLineOffSet<=saturnOffSet+70){ 
         $("#deep-line").text("1 600 000 000km from the Earth");
-    }else if($(window).scrollTop()<=4800){ 
-        $("#deep-line").text("2 000 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5000){ 
-        $("#deep-line").text("2 500 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5100){ 
+    }else if(deepLineOffSet<=((jupiterOffSet+uranusOffSet)/2)+95){ 
+        $("#deep-line").text("2 225 000 000km from the Earth");
+    }else if(deepLineOffSet<=uranusOffSet+105){ 
         $("#deep-line").text("3 000 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5200){ 
-        $("#deep-line").text("3 500 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5300){ 
+    }else if(deepLineOffSet<=((uranusOffSet+neptuneOffSet)/2)+150){ 
         $("#deep-line").text("4 000 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5400){ 
-        $("#deep-line").text("4 500 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5500){ 
+    }else if(deepLineOffSet<=neptuneOffSet+100){ 
         $("#deep-line").text("4 600 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5700){ 
-        $("#deep-line").text("5 000 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5800){ 
-        $("#deep-line").text("5 100 000 000km from the Earth");
-    }else if($(window).scrollTop()<=5900){ 
+    }else if(deepLineOffSet<=((neptuneOffSet+plutoOffSet)/2)+150){ 
+        $("#deep-line").text("4 900 000 000km from the Earth");
+    }else if(deepLineOffSet<=plutoOffSet+50){ 
         $("#deep-line").text("5 200 000 000km from the Earth");
-    }else if($(window).scrollTop()<=6000){ 
-        $("#deep-line").text("5 500 000 000km from the Earth");
-    }else if($(window).scrollTop()>=6000){ 
+    }else if(deepLineOffSet<=andromedaOffSet){ 
         $("#deep-line").text("Too far from the Earth");  
     };
 });
