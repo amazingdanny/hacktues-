@@ -6,9 +6,11 @@ body {
 }
 #Mein {
   margin: -2%;
+  margin-left: -2%;
+  margin-right: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 187%;
+  height: 200%;
 }
 #infoTable {
   margin-left: auto;
@@ -23,8 +25,8 @@ body {
 }
 .hed {
   font-size: 20px;
-  color: cyan;
-  width: 20%;
+  color: rgb(192, 191, 191);
+  width: 29%;
 }
 .infu {
   font-size: 23px;
@@ -42,7 +44,7 @@ body {
 #venus {
   margin: 0;
   height: 70vw;
-  width: 80%;
+  width: 100%;
 }
 #info {
   font-size: 20px;
@@ -138,18 +140,18 @@ body {
   width: 70%;
 }
 #KM {
-  color: rgb(102, 207, 255);
+  color: rgb(155, 155, 155);
   background-color: rgb(51, 51, 51);
 }
 #KMs {
-  color: rgb(102, 207, 255);
+  color: rgb(155, 155, 155);
   background-color: rgb(51, 51, 51);
 }
 #MIs {
-  color: rgb(102, 207, 255);
+  color: rgb(155, 155, 155);
   background-color: rgb(51, 51, 51);
 }
 #MI {
-  color: rgb(102, 207, 255);
+  color: rgb(155, 155, 155);
   background-color: rgb(51, 51, 51);
 }

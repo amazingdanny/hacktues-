@@ -1,7 +1,7 @@
-let KM = "58 000 000 KM";
-let MI = "36 039 518 MI";
-let KMs = " 77 600 000 KM";
-let MIs = "48 218 389 MI";
+let KM = "1 400 000 000 KM";
+let MI = "869 919 669 MI";
+let KMs = "4 300 000 000 KM";
+let MIs = "2 671 896 126 MI";
 let swich = 1;
 document.getElementById("KM").onclick = function(){
     document.getElementById("P").innerHTML = KM;
