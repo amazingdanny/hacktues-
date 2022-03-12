@@ -42,9 +42,9 @@ span
     height: 4px;
     background: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px rgb(10, 145, 28),
-    0 0 0 8px rgb(160, 13, 13),
-    0 0 0 20px rgba(255,255,255,1);
+    box-shadow: 0 0 0 1px rgb(225,225,225,0.1),
+    0 0 0 2px rgb(225,225,225,0.1),
+    0 0 0 5px rgba(255,255,255,1);
     animation: animate 3s linear infinite;  
 }
 span::before
@@ -75,15 +75,33 @@ span::before
 }
 span:nth-child(1)
 {
-    top: 600px;
-    right: 0;
+    top: 50%;
+    right: 300px;
+    left: initial;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 span:nth-child(2)
 {
-    top: 40px;
-    right: 40px;
+    top: 0;
+    left: 400px;
+    right: initial;
     animation-delay: -0.2s;
-    animation-duration: 3s;
+    animation-duration: 4s;
+}
+span:nth-child(3)
+{
+    top: 80px;
+    right: 90px;
+    left: initial;
+    animation-delay: -0.1s;
+    animation-duration: 3.5s;
+}
+span:nth-child(4)
+{
+    top: 80px;
+    left: 40px;
+    right: initial;
+    animation-delay: -0.4s;
+    animation-duration: 2s;
 }
