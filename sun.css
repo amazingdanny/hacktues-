@@ -8,7 +8,7 @@ body {
   margin: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 187%;
+  height: 185%;
 }
 #infoTable {
   margin-left: auto;
@@ -42,7 +42,7 @@ body {
 #venus {
   margin: 0;
   height: 70vw;
-  width: 100%;
+  width: 80%;
 }
 #info {
   font-size: 20px;
@@ -122,6 +122,10 @@ body {
   text-align: center;
   font-family: "Arial Black", sans-serif;
 }
+.img {
+  height: 30vw;
+  width: 22vw;
+}
 #reccomend {
   font-family: Arial Black, sans-serif, Helvetica, sans-serif;
   font-size: 20px;
@@ -134,14 +138,6 @@ body {
   width: 70%;
 }
 #im {
-  width: 50%;
+  width: 55%;
   height: 70%;
-}
-#im1 {
-  width: 29%;
-  height: 40%;
-}
-#im2 {
-  width: 20%;
-  height: 40%;
 }
