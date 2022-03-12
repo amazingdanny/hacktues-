@@ -71,7 +71,7 @@ h2 {
 }
 
 #div3 {
-  height: 650%;
+  height: 750%;
   background-image: url(large_thumbnail.jpg);
 }
 #tsubame {
@@ -288,6 +288,20 @@ h2 {
   color: white;
   margin-top: -7%;
   margin-left: 26%;
+  font-size: 1.5em;
+  width: 10%;
+  height: auto;
+}
+#andromeda {
+  margin-top: 15%;
+  margin-left: 70%;
+  width: 20%;
+  height: auto;
+}
+#andromedatxt {
+  color: white;
+  margin-left: 62%;
+  margin-top: -12%;
   font-size: 1.5em;
   width: 10%;
   height: auto;
