@@ -130,7 +130,7 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
-.firstPicture {
+#firstPicture {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -160,4 +160,11 @@ body {
 #MI {
   color: rgb(90, 78, 255);
   background-color: rgb(51, 51, 51);
+}
+#picturebutton1 {
+  background-image: url(arrow.jpg);
+  height: 5%;
+  width: 20%;
+  border-radius: 20%;
+  border-color: #ffffff;
 }
