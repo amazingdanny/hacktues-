@@ -81,6 +81,7 @@ body {
   color: rgb(43, 41, 41);
 }
 #firstPicture {
+  margin-left: 20%;
   height: 300px;
 }
 .class {
@@ -152,4 +153,8 @@ body {
 #MI {
   color: rgb(102, 207, 255);
   background-color: rgb(51, 51, 51);
+}
+#picturebutton1 {
+  margin-top: auto;
+  margin-bottom: auto;
 }
