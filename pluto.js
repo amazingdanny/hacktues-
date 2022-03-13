@@ -22,13 +22,31 @@ document.getElementById("picturebutton1").onclick = function(){
         swich = 1;
     }
     if(swich%3 == 1){
-        document.getElementById("firstPicture").src = "neptune_1.jpg";
+        document.getElementById("firstPicture").src = "pluto.png";
     }
      if(swich%3 == 2){
         console.log(swich);
-        document.getElementById("firstPicture").src = "neptune_2.jpg";
+        document.getElementById("firstPicture").src = "pluto_2.jpg";
     }
      if(swich%3 == 0){
-        document.getElementById("firstPicture").src = "neptun_3.jpg";
+        document.getElementById("firstPicture").src = "pluto_3.jpg";
      }
     }
+    document.getElementById("picturebutton2").onclick = function(){
+        swich++;
+        console.log(swich);
+        if(swich == 0){
+            swich = 3;
+        }
+        if(swich%3 == 1){
+            document.getElementById("firstPicture").src = "pluto.png";
+        }
+         if(swich%3 == 2){
+            console.log(swich);
+            document.getElementById("firstPicture").src = "pluto_2.jpg";
+        }
+         if(swich%3 == 0){
+            document.getElementById("firstPicture").src = "pluto_3.jpg";
+         }
+        }
+        

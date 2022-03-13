@@ -33,7 +33,7 @@ document.getElementById("picturebutton1").onclick = function(){
      }
     }
     document.getElementById("picturebutton2").onclick = function(){
-        swich++;
+        swich--;
         console.log(swich);
         if(swich == 0){
             swich = 3;
