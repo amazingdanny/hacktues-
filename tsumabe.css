@@ -8,7 +8,7 @@ body {
   margin: -2%;
   padding: 0;
   background-color: rgb(51, 51, 51);
-  height: 193%;
+  height: 220%;
 }
 #infoTable {
   margin-left: auto;
@@ -52,7 +52,7 @@ body {
   padding: 1px;
   background-color: rgb(255, 255, 255);
   height: 200%;
-  margin-top:15%;
+  margin-top: 15%;
 }
 #table {
   background-color: rgb(255, 245, 235);
