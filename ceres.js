@@ -1,7 +1,7 @@
-let KM = "4 500 000 000 KM";
-let MI = "2 796 170 365 MI";
-let KMs = "4 300 000 000 KM";
-let MIs = "2 671 896 126 MI";
+let KM = "413 000 000 KM";
+let MI = "257 000 000 MI";
+let KMs = "410,087,609 KM";
+let MIs = "257 000 000 MI";
 let swich = 1;
 document.getElementById("KM").onclick = function(){
     document.getElementById("P").innerHTML = KM;
@@ -22,13 +22,13 @@ document.getElementById("picturebutton1").onclick = function(){
         swich = 1;
     }
     if(swich%3 == 1){
-        document.getElementById("firstPicture").src = "neptune_1.jpg";
+        document.getElementById("firstPicture").src = "ceres.jpg";
     }
      if(swich%3 == 2){
         console.log(swich);
-        document.getElementById("firstPicture").src = "neptune_2.jpg";
+        document.getElementById("firstPicture").src = "ceres_2.jpg";
     }
      if(swich%3 == 0){
-        document.getElementById("firstPicture").src = "neptun_3.jpg";
+        document.getElementById("firstPicture").src = "ceres.gif";
      }
     }
