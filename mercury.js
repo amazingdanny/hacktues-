@@ -31,3 +31,19 @@ document.getElementById ("picturebutton1").onclick = function(){
         document.getElementById("firstPicture").src = "mercury_3.jpg";
      }
 }
+document.getElementById ("picturebutton2").onclick = function(){
+    swich--;
+    if(swich == 0){
+    swich = 3;
+    }
+    if(swich%3 == 1){
+    document.getElementById("firstPicture").src = "mercury2.jpg";
+    }
+    if(swich%3 == 2){
+        console.log(swich);
+        document.getElementById("firstPicture").src = "mercury_2.jpg";
+    }
+     if(swich%3 == 0){
+        document.getElementById("firstPicture").src = "mercury_3.jpg";
+     }
+}
