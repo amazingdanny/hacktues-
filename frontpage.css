@@ -15,7 +15,7 @@ section
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url(space-backgraund.jpg);
+    /*background: url(space-backgraund.jpg);*/
     background-position-x: center;
     background-size: cover;
     animation: animateBg 50s linear infinite;
@@ -126,5 +126,12 @@ span:nth-child(8)
 }
 #title
 {
-    background-color: red;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background: url("mars.jpg");
+    -webkit-text-fill-color: transparent;
+    color: red;
+    margin-top: 13%;
+    text-align: center;
+    font-size: 500%;
 }
