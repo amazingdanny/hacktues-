@@ -32,3 +32,21 @@ document.getElementById("picturebutton1").onclick = function(){
         document.getElementById("firstPicture").src = "ceres.gif";
      }
     }
+
+    document.getElementById("picturebutton2").onclick = function(){
+        swich--;
+        console.log(swich);
+        if(swich == 0){
+            swich = 3;
+        }
+        if(swich%3 == 1){
+            document.getElementById("firstPicture").src = "ceres.jpg";
+        }
+         if(swich%3 == 2){
+            console.log(swich);
+            document.getElementById("firstPicture").src = "ceres_2.jpg";
+        }
+         if(swich%3 == 0){
+            document.getElementById("firstPicture").src = "ceres.gif";
+         }
+        }
