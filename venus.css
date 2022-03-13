@@ -53,12 +53,12 @@ body {
   width: 60%;
   padding: 1px;
   background-color: rgb(255, 255, 255);
-  height: 400%;
+  height: auto;
 }
 #table {
   background-color: rgb(255, 245, 235);
-  height: 200%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 #tableName {
   position: relative;
